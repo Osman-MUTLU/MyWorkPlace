@@ -1,6 +1,3 @@
-package Homework;
-
-
 public class Company {
     String company_name;
     Address address;

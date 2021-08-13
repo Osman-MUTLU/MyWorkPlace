@@ -12,7 +12,7 @@ public class Hangman {
     private int score;
     private int lives;
     private String inputFile = "D:\\input.txt";
-    private String highScoreListFile = "D:\\HighScoreTable.txt";
+    private String highScoreListFile = "HighScoreTable.txt";
 
     public Hangman() {
         mll = new MultiLinkedList();

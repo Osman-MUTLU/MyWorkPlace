@@ -1,5 +1,3 @@
-package Homework;
-
 public class Internship {
     String department_code;
     String student_number;

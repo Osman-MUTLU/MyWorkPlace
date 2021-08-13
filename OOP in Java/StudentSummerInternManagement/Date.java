@@ -1,5 +1,3 @@
-package Homework;
-
 public class Date {
     String day;
     String month;

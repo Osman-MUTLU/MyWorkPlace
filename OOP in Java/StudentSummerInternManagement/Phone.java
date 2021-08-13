@@ -1,5 +1,3 @@
-package Homework;
-
 public class Phone {
     //Phone class for student and,company
     String phone_country_code,phone_area_code,phone_number;

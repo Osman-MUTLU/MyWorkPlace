@@ -11,7 +11,7 @@ public class Hangman {
     private String name;
     private int score;
     private int lives;
-    private String inputFile = "D:\\input.txt";
+    private String inputFile = "input.txt";
     private String highScoreListFile = "HighScoreTable.txt";
 
     public Hangman() {

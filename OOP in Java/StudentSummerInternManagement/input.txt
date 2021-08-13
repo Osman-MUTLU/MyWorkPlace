@@ -1,0 +1,26 @@
+Department,CME,Computer Engineering,Assoc.Prof.Dr.,Mehmet Hilal OZCANHAN,Res.Asst.,Elife KIYAK,Res.Asst.,Goksu
+TUYSUZOGLU,Hardware Training,2,Software Training,4,Free,6
+Department,CEV,Environmental Engineering,Prof.Dr.,Ayse GUR,Res.Asst.,Sibel TOSUN,Res.Asst.,Ahmet TARAK,Practical
+Training,3,Theoretical Training,2,Free,5
+Department,EEE,Electrical and Electronic Engineering,Asst.Prof.Dr.,Taner YAR,Res.Asst.,Remzi AK,Res.Asst.,Faruk
+YILMAZ,Electrical Training,4,Electronic Traning,3,Free,2
+Department,END,Industrial Engineering,Prof.Dr.,Emre TEMIZ,Res.Asst.,Yeliz TUT,Res.Asst.,Zeynep YAR,Workshop
+Training,4,Production Training,4,Free,4
+Department,INS,Civil Engineering,Asst.Prof.Dr.,Pelin VARAN,Res.Asst.,Mehmet SARI,Res.Asst.,Melisa TAK,Summer
+Training I,2,Summer Training II,4,Free,2
+Department,JEF,Geophysics Engineering,Asst.Prof.Dr.,Levent SERIN,Res.Asst.,Mehmet AK,Res.Asst.,Meltem
+KALIN,Summer Training I,2,Summer Training II,4,Free,2
+Department,JEO,Geology Engineering,Asst.Prof.Dr.,Nazan SERT,Res.Asst.,Deniz SARI,Res.Asst.,Melisa TAK,Summer
+Training I,2,Summer Training II,4,Free,2
+Department,MDN,Mining Engineering,Asst.Prof.Dr.,Pelin VARAN,Res.Asst.,Mehmet SARI,Res.Asst.,Emine YEMEK,Business
+Training I,2,Management Training II,4,Free,2
+Department,MAK,Mechanical Engineering,Asst.Prof.Dr.,Fatma NAZ,Res.Asst.,Sadet SARI,Res.Asst.,Nil BEN,Basic
+Training,6,Advanced Training,2,Free,2
+Department,MMM,Metallurgy and Material Engineering,Asst.Prof.Dr.,Ayse UT,Res.Asst.,Mehmet PAN,Res.Asst.,Cenk
+PERDE,Summer Training I,2,Summer Training II,6,Free,2
+Department,TKS,Textile Engineering,Asst.Prof.Dr.,Can MANA,Res.Asst.,Beril LEYLEK,Res.Asst.,Elif SIMSEK,Workshop
+Training,4,Integrated Textile Training,6,Free,6
+Internship,CME,2018510012,Sabri ERDEK,12.12.1990,man,3,+90,532,1112233,Software Training,15.07.2019,31.07.2019,
+VESTEL,Sanayi cad.,12,Yunusemre,Manisa,Turkey,+90,236,2374066,Electronic,Turan ESEN
+Internship,CME,2018510012,Emel SEVIMLI,20.01.1991,woman,2,+90,532,6765432,Hardware Training,10.07.2019,
+16.08.2019,Ericsson,Dumlupinar cad.,10,Tinaztepe,Izmir,Turkey,+90,232,2384600,Telecommunication,Kemal DERT

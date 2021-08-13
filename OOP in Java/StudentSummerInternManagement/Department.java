@@ -1,5 +1,3 @@
-package Homework;
-
 public class Department {
     String code;
     String name;

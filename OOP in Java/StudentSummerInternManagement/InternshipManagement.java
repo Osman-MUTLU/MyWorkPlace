@@ -1,4 +1,3 @@
-package Homework;
 import java.io.*;
 
 public class InternshipManagement {

@@ -55,7 +55,7 @@ public class InternshipManagement {
         return departments;
     }
     public static Internship[] getInternships(){
-        //Getting Internship list and save all variables in test.txt
+        //Getting Internship list and save all variables in input.txt
         Internship[] internships = new Internship[internshipCounter];
         try {
             FileReader fReader = new FileReader(file_name);
@@ -103,7 +103,7 @@ public class InternshipManagement {
         return students;
     }
     public static Company[] getCompanies(Internship[] internships) throws IOException {
-        //Getting company list and save all variables in test.txt
+        //Getting company list and save all variables in input.txt
         Company[] companies = new Company[internships.length];
         for (int i = 0;i<internships.length;i++){
             String company_name = internships[i].getCompany_name();

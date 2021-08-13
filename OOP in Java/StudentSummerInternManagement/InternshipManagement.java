@@ -4,9 +4,9 @@ import java.io.*;
 public class InternshipManagement {
 
     static int departmentCounter,internshipCounter;
-    static String file_name = "test.txt";
+    static String file_name = "input.txt";
     public static Department[] getDepartments() throws IOException {
-        //Getting department list and save all variables , Counting departments and internships in test.txt.
+        //Getting department list and save all variables , Counting departments and internships in input.txt.
         try{
             internshipCounter = 0;
             departmentCounter =0;

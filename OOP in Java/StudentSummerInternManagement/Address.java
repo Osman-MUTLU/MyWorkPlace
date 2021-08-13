@@ -1,5 +1,3 @@
-package Homework;
-
 public class Address {
     String street,no,town,city,country;
 

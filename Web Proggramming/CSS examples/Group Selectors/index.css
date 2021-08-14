@@ -1,0 +1,18 @@
+div,p{
+    color:greenyellow;
+}
+div p{
+    color:cyan;
+}
+div div p{
+    color:green;
+}
+.container{ 
+    color:blue;
+}
+.container div{ 
+    color:purple;
+}
+.container div p{
+    color:brown;
+}

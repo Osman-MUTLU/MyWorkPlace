@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Inherit</title>
+    <style>
+        body {
+            color:darkcyan;
+
+        }
+        ul{
+            color:coral;
+        }
+        li{
+            color:purple;
+        }
+        li:first-child{
+            color:inherit;
+        }
+        a {
+            color:red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, delectus? Aliquid earum eveniet sed placeat
+        reiciendis, voluptatem quod eaque! Qui.</p>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, delectus? Aliquid earum eveniet sed placeat
+        reiciendis, voluptatem quod eaque! Qui.</p>
+
+    <a href="#">Link 1</a>
+    <a href="#" style="color:inherit">Link 2</a>
+
+    <ul>
+        <li>Entry 1</li>
+        <li>Entry 2</li>
+        <li style ="color:inherit">Entry 3</li>
+        <li>Entry 4</li>
+        <li>Entry 5</li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .box {
+            width: 150px;
+            height: 150px;
+        }
+
+        #box1 {
+            background: lightcoral;
+            position: sticky;
+            top: 20px;
+            width:100%;
+        }
+
+        #box2 {
+            background: lightgreen;
+            position: absolute;
+            bottom: 0px;
+            right: 150px;
+        }
+
+        #box3 {
+            background: lightgrey;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ea labore est molestiae pariatur eaque
+        tempore doloribus possimus quasi necessitatibus nobis amet inventore, animi placeat? Commodi illum voluptate
+        ipsa. Minima.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nihil rerum accusantium delectus asperiores
+        praesentium hic laudantium accusamus, nesciunt, debitis odio consectetur voluptatum magni nam facilis dolorem,
+        odit perferendis quos?</p>
+    <div class="box" id="box1">Box 1</div>
+    <div class="box" id="box2">Box 2</div>
+    <div class="box" id="box3">Box 3</div>
+    <div style="height:3000px;"></div>
+</body>
+
+</html>

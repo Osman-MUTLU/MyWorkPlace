@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        img{
+            max-width: 100%;
+        }
+        .box{
+            width:25%;
+            background:lightblue;
+            float:left;
+            border:1px solid black;
+            
+        }
+        
+        @media screen and (max-width:900px) {
+            .box{
+                width:33%;
+            }
+        }
+        @media screen and (max-width:600px) {
+            .box{
+                width:50%;
+            
+            }
+        }
+        @media screen and (max-width:400px) {
+            .box{
+                width:100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box"><img src="../HTML examples/images/landspace1.jpg" alt="" width="500px"></div>
+    <div class="box"><img src="../HTML examples/images/landspace2.jpg" alt="" width="500px"></div>
+    <div class="box"><img src="../HTML examples/images/landspace1.jpg" alt="" width="500px"></div>
+    <div class="box"><img src="../HTML examples/images/landspace2.jpg" alt="" width="500px"></div>
+</body>
+</html>

@@ -30,7 +30,7 @@
                     START BOOtSTRAP
                 </a>
             </div>
-            <div id="nav-links">
+            <div id="nav-links" class="responsive">
                 <ul>
                     <li class="nav-item text-uppercase">
                         <a href="#" class="nav-link">
@@ -45,6 +45,11 @@
                     <li class="nav-item text-uppercase">
                         <a href="#" class="nav-link">
                             Contact
+                        </a>
+                    </li>
+                    <li class="nav-item text-uppercase nav-icon">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-bars"></i>
                         </a>
                     </li>
                 </ul>
@@ -237,6 +242,13 @@
             <small>Copyright © Your Website 2021</small>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(".nav-icon").click(function(){
+            $("#nav-links").toggleClass("responsive");
+            return false;
+        });
+    </script>
 </body>
 
 </html>

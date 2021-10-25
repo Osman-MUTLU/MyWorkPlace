@@ -3,13 +3,13 @@ public class Queue<T> {
     private int rear;
     private T[] queue;
 
-   public QueueArray()
+   public Queue()
    {
       rear = 0;
       queue = (T[])(new Object[DEFAULT_CAPACITY]);
    }
 
-   public QueueArray (int initialCapacity)
+   public Queue (int initialCapacity)
    {
       rear = 0;
       queue = (T[])(new Object[initialCapacity]);

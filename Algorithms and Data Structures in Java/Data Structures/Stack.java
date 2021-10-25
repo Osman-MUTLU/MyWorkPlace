@@ -4,7 +4,7 @@ public class Stack<T> {
 
     private int total;
 
-    public StackArray(int cap)
+    public Stack(int cap)
     {
         arr = (T[]) new Object[cap];
     }
@@ -15,7 +15,7 @@ public class Stack<T> {
         arr = tmp;
     }
 
-    public StackArray<T> push(T a) {
+    public Stack<T> push(T a) {
         if (arr.length == total) {
             System.out.println("it is full");
             return null;

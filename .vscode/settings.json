@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Algorithms and Data Structures in Java\\Data Structures\\PriortyQueue",
-        "Algorithms and Data Structures in Java\\Data Structures"
+        "Algorithms and Data Structures in Java\\Data Structures",
+        "OOP in Java\\StudentSummerInternManagement"
     ]
 }

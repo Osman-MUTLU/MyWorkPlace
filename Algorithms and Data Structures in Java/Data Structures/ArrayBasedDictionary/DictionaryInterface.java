@@ -1,3 +1,5 @@
+package ArrayBasedDictionary;
+
 import java.util.Iterator;
 
 public interface DictionaryInterface<K, V> {
